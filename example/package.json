@@ -1,0 +1,18 @@
+{
+  "name": "openapi-mass-generator-example",
+  "version": "0.1.1",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "contributors": [
+    "Ivan Aksamentov <ivan.aksamentov@gmail.com>"
+  ],
+  "scripts": {
+    "generate": "openapi-mass-generator"
+  },
+  "devDependencies": {
+    "@openapitools/openapi-generator-cli": "0.0.16-4.0.3",
+    "dotenv": "8.0.0",
+    "openapi-mass-generator": "0.1.1"
+  }
+}
