@@ -1,0 +1,31 @@
+{
+  "name": "openapi-mass-generator",
+  "version": "0.1.0",
+  "main": "index.js",
+  "repository": "https://github.com/ivan-aksamentov/openapi-mass-generator",
+  "license": "MIT",
+  "contributors": [
+    "Ivan Aksamentov <ivan.aksamentov@gmail.com>"
+  ],
+  "bin": "index.js",
+  "files": [
+    "./index.js"
+  ],
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development node index.js",
+    "prod": "cross-env NODE_ENV=production node index.js",
+    "lint": "eslint \"**/*.js\"",
+    "format": "prettier --write \"**/*.js\""
+  },
+  "devDependencies": {
+    "cross-env": "5.2.0",
+    "eslint": "6.1.0",
+    "eslint-config-prettier": "6.0.0",
+    "eslint-plugin-node": "9.1.0",
+    "eslint-plugin-prettier": "3.1.0",
+    "prettier": "1.18.2"
+  },
+  "engines": {
+    "node": ">=8.3.0"
+  }
+}
