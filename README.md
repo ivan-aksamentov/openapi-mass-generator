@@ -14,13 +14,13 @@ This way you can easily run generators for multiple specs or multiple generators
 for the same spec (or both).
 
 It is especially handy if you develop microservices based on OpenAPI or Swagger.
-This tool will allow you to generate all the API stubs with a single command
-your build config file (e.g. package.json) or at least a single entry per
-service.
+This tool will allow you to generate all the API stubs with a single command in
+your build config file (e.g. package.json scripts) or at least a single entry
+per service.
 
 Because `.openapi-generator.config.js` is a javascript file, you can use
-environment variables and any other configuration logic. No longer you need a
-bunch of confusing hardcoded filenames in the scripts section of package.json.
+environment variables and any other configuration logic. This spares the scripts
+section of your package.json from a bunch of confusing hardcoded filenames.
 
 ## How to use
 
@@ -31,9 +31,8 @@ yarn add --dev openapi-mass-generator @openapitools/openapi-generator-cli
 
 ```
 
-> Note: `@openapitools/openapi-generator-cli` assumes Java > 8 is installed
-and is available in system path.
-
+> Note: `@openapitools/openapi-generator-cli` assumes Java > 8 is installed and
+> is available in system path.
 
 For the following config file `.openapi-generator.config.js`:
 
